@@ -1,3 +1,18 @@
 /* CSS for progressive enhancement*/
 
 
+p {
+	font-family: serif;
+	letter-spacing: 1px;
+	font-size: 17px;
+	color:#4a4a49;
+}
+
+a {
+	color:#4a4a49;
+	font-family: serif;
+	font-weight: bold;
+	text-decoration: none;
+	text-decoration: underline;
+
+}
