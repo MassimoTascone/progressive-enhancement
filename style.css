@@ -1,5 +1,7 @@
 /* CSS for progressive enhancement*/
-
+* {
+	font-family: 'Open Sans', sans-serif;
+}
 
 p {
 	font-family: serif;
@@ -30,9 +32,11 @@ body {
 	max-width: 90%;
 	margin-left: auto;
 	background: linear-gradient(1deg, rgb(241, 195, 156), rgb(247, 251, 255));
-	background-image:url("http://clipartmag.com/images/batman-logo-png-11.png");
+	/*background-image:url("https://upload.wikimedia.org/wikipedia/commons/e/e5/Hand_pointing_down_%28contour%29.svg");*/
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: 120% 75%;
+	font-size: 18px;
+
 
 }
 
@@ -44,16 +48,83 @@ q {
 	margin-right: auto;
 	font-size: 160%;
 	background-color:#a8aaad;
-	border-left: 3px solid black;
 	padding-left: 30px;
 	display: block;
 	margin-top: 80px;
 	margin-bottom: 80px;
+	font-style: italic;
 
+}
 
+.villagers {
+	border-left: 3px solid orange;
+}
+.farmer {
+	border-left: 3px solid #60b4db;
+}
 
+header h1:first-child{
+	background-color: #ebd957;
+}
+
+.good {
+	text-transform: uppercase;
+	color: #3c960c;
+
+}
+.bad {
+	text-transform: uppercase;
+	color: #c9240a;
+}
+
+.IconGood {
+	background-image: url(https://github.com/becodeorg/BXL-Johnson-4.14/blob/master/03-HTML-CSS/html-css-2/bien.png?raw=true);
+	background-repeat: no-repeat;
+	padding-right: 50px;
+	padding:20px;
+	background-position: 29% 0%;
+}
+
+.IconBad {
+	background-image: url(https://github.com/becodeorg/BXL-Johnson-4.14/blob/master/03-HTML-CSS/html-css-2/mal.png?raw=true);
+	background-repeat: no-repeat;
+	padding: 20px;
+	background-position: 28% 0%;
 
 
 }
 
+.IconCat {
+	background-image: url(https://github.com/becodeorg/BXL-Johnson-4.14/blob/master/03-HTML-CSS/html-css-2/chat.png?raw=true);
+	background-repeat: no-repeat;
+	padding:20px;
+	background-position: 28% 0%;
+
+
+}
+
+.firstparag {
+	font-weight: bold;
+}
+
+.photoAlex {
+	float: left;
+}
+
+
+
 /* ============= Header ============== */
+
+
+/* ============= article ============== */
+
+
+table tr:nth-child(even) {
+	background-color: #ccc;
+}
+table tr:nth-child(odd) {
+	background-color: #fff;
+}
+
+
+/* ============= article ============== */
