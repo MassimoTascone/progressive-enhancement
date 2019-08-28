@@ -80,29 +80,33 @@ header h1:first-child{
 }
 
 .IconGood {
-	background-image: url("../assets/img/bien.png");
+	background-image: url("../img/good.png");
 	background-repeat: no-repeat;
 	padding-right: 50px;
 	padding:20px;
-	background-position: 29% 0%;
+	background-position: 400px 0;
 }
 
 .IconBad {
-	background-image: url("assets/img/mal.png");
+	background-image: url("../img/bad.png");
 	background-repeat: no-repeat;
 	padding: 20px;
-	background-position: 28% 0%;
+	background-position: 400px 0;
 
 
 }
 
 .IconCat {
-	background-image: url(assets/img/chat.png);
+	background-image: url(../img/cat.png);
 	background-repeat: no-repeat;
 	padding:20px;
-	background-position: 28% 0%;
+	background-position: 400px 0;
 
 
+}
+
+.IconNone {
+	padding:20px;
 }
 
 .firstparag {
